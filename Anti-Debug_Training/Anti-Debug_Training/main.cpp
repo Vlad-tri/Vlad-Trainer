@@ -11,6 +11,7 @@ INT main(int argc, char* argv[]) {
 
 	printf("[*] Check for Hardware_anti_debug\r\n");
 	BOOL res_HardwareBreakpoints = HardwareBreakpoints();
+	BOOL res_Interrupt_0x2d = Interrupt_0x2d();
 
 	system("pause");
 	return 0;
