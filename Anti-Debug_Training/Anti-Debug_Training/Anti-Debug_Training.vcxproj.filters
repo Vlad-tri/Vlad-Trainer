@@ -27,6 +27,9 @@
     <ClCompile Include="NtGlobalFlag.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NtCreateThreadEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Windows_API_anti_dbg.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NtGlobalFlag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NtCreateThreadEx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

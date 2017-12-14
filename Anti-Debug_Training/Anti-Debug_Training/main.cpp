@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include"Windows_API_anti_dbg.h"
 #include"Hardware.h"
+#include"NtCreateThreadEx.h"
 
 INT main(int argc, char* argv[]) {
 	printf("[*] Testing for Anti-Debug-Techniques.\r\n");
@@ -11,7 +12,10 @@ INT main(int argc, char* argv[]) {
 
 	printf("[*] Check for Hardware_anti_debug\r\n");
 	BOOL res_HardwareBreakpoints = HardwareBreakpoints();
-	BOOL res_Interrupt_0x2d = Interrupt_0x2d();
+	//BOOL res_Interrupt_0x2d = Interrupt_0x2d();
+
+	printf("[*] Check for NtCreateThreadEx\r\n");
+	NtCreateThread_hide();
 
 	system("pause");
 	return 0;
