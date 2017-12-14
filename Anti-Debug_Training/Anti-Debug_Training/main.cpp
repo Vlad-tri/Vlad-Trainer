@@ -3,6 +3,7 @@
 #include"Windows_API_anti_dbg.h"
 #include"Hardware.h"
 #include"NtCreateThreadEx.h"
+#include "NtCloseHandle.h"
 
 INT main(int argc, char* argv[]) {
 	printf("[*] Testing for Anti-Debug-Techniques.\r\n");
@@ -16,6 +17,9 @@ INT main(int argc, char* argv[]) {
 
 	printf("[*] Check for NtCreateThreadEx\r\n");
 	NtCreateThread_hide();
+
+	printf("[*] Check for NtCloseHandle\r\n");
+	NtCloseHandle();
 
 	system("pause");
 	return 0;
