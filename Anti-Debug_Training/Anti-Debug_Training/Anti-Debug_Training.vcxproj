@@ -80,6 +80,7 @@
     <ClCompile Include="NtCloseHandle.cpp" />
     <ClCompile Include="NtCreateThreadEx.cpp" />
     <ClCompile Include="NtGlobalFlag.cpp" />
+    <ClCompile Include="OpenProcess.cpp" />
     <ClCompile Include="Window_API_anti_debug.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +88,7 @@
     <ClInclude Include="NtCloseHandle.h" />
     <ClInclude Include="NtCreateThreadEx.h" />
     <ClInclude Include="NtGlobalFlag.h" />
+    <ClInclude Include="OpenProcess.h" />
     <ClInclude Include="Windows_API_anti_dbg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,8 +4,10 @@
 #include"Hardware.h"
 #include"NtCreateThreadEx.h"
 #include "NtCloseHandle.h"
+#include "OpenProcess.h"
 
 INT main(int argc, char* argv[]) {
+
 	printf("[*] Testing for Anti-Debug-Techniques.\r\n");
 	
 	printf("[*] Check for Windows_API_anti_debug\r\n");
@@ -20,6 +22,11 @@ INT main(int argc, char* argv[]) {
 
 	printf("[*] Check for NtCloseHandle\r\n");
 	NtCloseHandle();
+
+	// Not found any anti-debug yet
+	printf("[*] Check for OpenProcess csrss.exe\r\n");
+	OpenProcessCsrss();
+
 
 	system("pause");
 	return 0;

@@ -33,6 +33,9 @@
     <ClCompile Include="NtCloseHandle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OpenProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Windows_API_anti_dbg.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NtCloseHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenProcess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
