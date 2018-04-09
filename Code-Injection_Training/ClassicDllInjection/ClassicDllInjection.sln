@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassicDllInjection", "ClassicDllInjection\ClassicDllInjection.vcxproj", "{B673A41E-E9AE-44A2-AD31-2F617A8823CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inject", "inject\inject.vcxproj", "{97384A5C-E70E-449D-9B6A-C1AC457854D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B673A41E-E9AE-44A2-AD31-2F617A8823CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B673A41E-E9AE-44A2-AD31-2F617A8823CD}.Debug|Win32.Build.0 = Debug|Win32
+		{B673A41E-E9AE-44A2-AD31-2F617A8823CD}.Release|Win32.ActiveCfg = Release|Win32
+		{B673A41E-E9AE-44A2-AD31-2F617A8823CD}.Release|Win32.Build.0 = Release|Win32
+		{97384A5C-E70E-449D-9B6A-C1AC457854D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97384A5C-E70E-449D-9B6A-C1AC457854D4}.Debug|Win32.Build.0 = Debug|Win32
+		{97384A5C-E70E-449D-9B6A-C1AC457854D4}.Release|Win32.ActiveCfg = Release|Win32
+		{97384A5C-E70E-449D-9B6A-C1AC457854D4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

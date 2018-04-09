@@ -13,6 +13,7 @@ INT main(int argc, char* argv[]) {
 	printf("[*] Check for Windows_API_anti_debug\r\n");
 	BOOL res_CheckRemoteDebugger = CheckRemoteDebuggerPresentAPI();
 
+	/*
 	printf("[*] Check for Hardware_anti_debug\r\n");
 	BOOL res_HardwareBreakpoints = HardwareBreakpoints();
 	//BOOL res_Interrupt_0x2d = Interrupt_0x2d();
@@ -27,7 +28,7 @@ INT main(int argc, char* argv[]) {
 	printf("[*] Check for OpenProcess csrss.exe\r\n");
 	OpenProcessCsrss();
 
-
+	*/
 	system("pause");
 	return 0;
 }
